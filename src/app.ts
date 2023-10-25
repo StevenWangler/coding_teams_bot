@@ -15,20 +15,23 @@ import config from "./config";
 // Use OpenAI
 const planner = new OpenAIPlanner({
   apiKey: config.openAIKey,
-  defaultModel: "gpt-3.5-turbo",
+  defaultModel: "gpt-4",
   useSystemMessage: true,
   logRequests: true,
 });
+
+
 // Uncomment the following lines to use Azure OpenAI
 /**
 const planner = new AzureOpenAIPlanner({
   apiKey: config.azureOpenAIKey,
   endpoint: config.azureOpenAIEndpoint,
-  defaultModel: "gpt-35-turbo",
+  defaultModel: "gpt4",
   useSystemMessage: true,
   logRequests: true,
 });
 */
+
 const promptManager = new DefaultPromptManager(path.join(__dirname, "../src/prompts"));
 
 // Define storage and application

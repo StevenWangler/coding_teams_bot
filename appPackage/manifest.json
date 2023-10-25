@@ -5,7 +5,7 @@
     "id": "${{TEAMS_APP_ID}}",
     "packageName": "com.microsoft.teams.extension",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "Steven Wangler",
         "websiteUrl": "https://www.example.com",
         "privacyUrl": "https://www.example.com/termofuse",
         "termsOfUseUrl": "https://www.example.com/privacy"
@@ -15,7 +15,7 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "intelligent_teams_bot-${{TEAMSFX_ENV}}",
+        "short": "Chat Bot-${{TEAMSFX_ENV}}",
         "full": "full name for intelligent_teams_bot"
     },
     "description": {

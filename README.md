@@ -1,6 +1,6 @@
-# Overview of the AI Chat Bot template
+# Overview of the AI Chat Bot
 
-This template showcases a bot app that responds to user questions like an AI assistant. This enables your users to talk with the AI assistant in Teams to find information.
+This project showcases a bot app that responds to user questions like an AI assistant. This enables your users to talk with the AI assistant in Teams to find information.
 
 The app template is built using the Teams AI library, which provides the capabilities to build AI-based Teams applications.
 
@@ -68,7 +68,7 @@ Above steps use OpenAI as AI service, optionally, you can also use Azure OpenAI 
     ```
 1. In `src/app.ts`, update `defaultModel` to your own model deployment name.
 
-## What's included in the template
+## What's included
 
 | Folder       | Contents                                            |
 | - | - |
