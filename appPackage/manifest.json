@@ -15,12 +15,12 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "Chat Bot-${{TEAMSFX_ENV}}",
-        "full": "full name for intelligent_teams_bot"
+        "short": "Coding Bot-${{TEAMSFX_ENV}}",
+        "full": "full name for Coding Bot"
     },
     "description": {
-        "short": "short description for intelligent_teams_bot",
-        "full": "full description for intelligent_teams_bot"
+        "short": "short description for Coding Bot",
+        "full": "full description for Coding Bot"
     },
     "accentColor": "#FFFFFF",
     "bots": [
